@@ -1,0 +1,24 @@
+.nav-menu.practice a {
+    background-color: lightsteelblue;
+}
+
+.nav-menu.practice a:hover {
+    background-color: lightgreen !important;
+    transform: translateX(10px);
+}
+
+.nav-menu.practice a:active {
+    background-color: green !important;
+}
+
+.nav-menu.practice a:first-child {
+    background-color: cyan;
+}
+
+.nav-menu.practice a:last-child {
+    background-color: purple;
+}
+
+.nav-menu.practice a:nth-child(2) {
+  background-color: grey;
+}
